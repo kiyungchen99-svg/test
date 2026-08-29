@@ -1,0 +1,469 @@
+[cmd-1] $ ping -c 2 -W 5 172.16.3.154
+[cmd-2] $ ping -c 2 -W 5 172.16.3.152
+[cmd-3] $ ping -c 2 -W 5 172.16.3.153
+[cmd-4] $ ping -c 2 -W 5 172.16.3.151
+[cmd-5] $ ping -c 2 -W 5 172.16.3.150
+[cmd-6] $ ping -c 2 -W 5 172.16.3.149
+[cmd-1] PING 172.16.3.154 (172.16.3.154) 56(84) bytes of data.
+[cmd-7] $ ping -c 2 -W 5 172.16.3.148
+[cmd-8] $ ping -c 2 -W 5 172.16.3.147
+[cmd-1] 64 bytes from 172.16.3.154: icmp_seq=1 ttl=64 time=0.118 ms
+[cmd-9] $ ping -c 2 -W 5 172.16.3.171
+[cmd-10] $ ping -c 2 -W 5 172.16.3.172
+[cmd-2] PING 172.16.3.152 (172.16.3.152) 56(84) bytes of data.
+[cmd-2] 64 bytes from 172.16.3.152: icmp_seq=1 ttl=64 time=0.122 ms
+[cmd-3] PING 172.16.3.153 (172.16.3.153) 56(84) bytes of data.
+[cmd-3] 64 bytes from 172.16.3.153: icmp_seq=1 ttl=64 time=0.116 ms
+[cmd-4] PING 172.16.3.151 (172.16.3.151) 56(84) bytes of data.
+[cmd-4] 64 bytes from 172.16.3.151: icmp_seq=1 ttl=64 time=0.092 ms
+[cmd-5] PING 172.16.3.150 (172.16.3.150) 56(84) bytes of data.
+[cmd-5] 64 bytes from 172.16.3.150: icmp_seq=1 ttl=64 time=0.106 ms
+[cmd-6] PING 172.16.3.149 (172.16.3.149) 56(84) bytes of data.
+[cmd-6] 64 bytes from 172.16.3.149: icmp_seq=1 ttl=64 time=0.093 ms
+[cmd-7] PING 172.16.3.148 (172.16.3.148) 56(84) bytes of data.
+[cmd-7] 64 bytes from 172.16.3.148: icmp_seq=1 ttl=64 time=0.107 ms
+[cmd-8] PING 172.16.3.147 (172.16.3.147) 56(84) bytes of data.
+[cmd-8] 64 bytes from 172.16.3.147: icmp_seq=1 ttl=64 time=0.089 ms
+[cmd-10] PING 172.16.3.172 (172.16.3.172) 56(84) bytes of data.
+[cmd-10] 64 bytes from 172.16.3.172: icmp_seq=1 ttl=64 time=0.130 ms
+[cmd-9] PING 172.16.3.171 (172.16.3.171) 56(84) bytes of data.
+[cmd-9] 64 bytes from 172.16.3.171: icmp_seq=1 ttl=64 time=0.138 ms
+[cmd-1] 64 bytes from 172.16.3.154: icmp_seq=2 ttl=64 time=0.075 ms
+[cmd-1] 
+[cmd-1] --- 172.16.3.154 ping statistics ---
+[cmd-1] 2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+[cmd-1] rtt min/avg/max/mdev = 0.075/0.096/0.118/0.021 ms
+[cmd-11] $ ping -c 2 -W 5 172.16.3.170
+[cmd-2] 64 bytes from 172.16.3.152: icmp_seq=2 ttl=64 time=0.067 ms
+[cmd-2] 
+[cmd-2] --- 172.16.3.152 ping statistics ---
+[cmd-2] 2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+[cmd-2] rtt min/avg/max/mdev = 0.067/0.094/0.122/0.027 ms
+[cmd-12] $ ping -c 2 -W 5 172.16.3.169
+[cmd-11] PING 172.16.3.170 (172.16.3.170) 56(84) bytes of data.
+[cmd-11] 64 bytes from 172.16.3.170: icmp_seq=1 ttl=64 time=0.155 ms
+[cmd-3] 64 bytes from 172.16.3.153: icmp_seq=2 ttl=64 time=0.069 ms
+[cmd-3] 
+[cmd-3] --- 172.16.3.153 ping statistics ---
+[cmd-3] 2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+[cmd-3] rtt min/avg/max/mdev = 0.069/0.092/0.116/0.023 ms
+[cmd-13] $ ping -c 2 -W 5 172.16.3.168
+[cmd-12] PING 172.16.3.169 (172.16.3.169) 56(84) bytes of data.
+[cmd-4] 64 bytes from 172.16.3.151: icmp_seq=2 ttl=64 time=0.066 ms
+[cmd-12] 64 bytes from 172.16.3.169: icmp_seq=1 ttl=64 time=0.144 ms
+[cmd-4] 
+[cmd-4] --- 172.16.3.151 ping statistics ---
+[cmd-4] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-4] rtt min/avg/max/mdev = 0.066/0.079/0.092/0.013 ms
+[cmd-14] $ ping -c 2 -W 5 172.16.3.167
+[cmd-13] PING 172.16.3.168 (172.16.3.168) 56(84) bytes of data.
+[cmd-5] 64 bytes from 172.16.3.150: icmp_seq=2 ttl=64 time=0.069 ms
+[cmd-5] 
+[cmd-5] --- 172.16.3.150 ping statistics ---
+[cmd-5] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-5] rtt min/avg/max/mdev = 0.069/0.087/0.106/0.018 ms
+[cmd-13] 64 bytes from 172.16.3.168: icmp_seq=1 ttl=64 time=0.126 ms
+[cmd-15] $ ping -c 2 -W 5 172.16.3.166
+[cmd-6] 64 bytes from 172.16.3.149: icmp_seq=2 ttl=64 time=0.070 ms
+[cmd-6] 
+[cmd-6] --- 172.16.3.149 ping statistics ---
+[cmd-6] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-6] rtt min/avg/max/mdev = 0.070/0.081/0.093/0.011 ms
+[cmd-14] PING 172.16.3.167 (172.16.3.167) 56(84) bytes of data.
+[cmd-14] 64 bytes from 172.16.3.167: icmp_seq=1 ttl=64 time=0.137 ms
+[cmd-7] 64 bytes from 172.16.3.148: icmp_seq=2 ttl=64 time=0.070 ms
+[cmd-7] 
+[cmd-7] --- 172.16.3.148 ping statistics ---
+[cmd-7] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-7] rtt min/avg/max/mdev = 0.070/0.088/0.107/0.018 ms
+[cmd-9] 64 bytes from 172.16.3.171: icmp_seq=2 ttl=64 time=0.129 ms
+[cmd-9] 
+[cmd-9] --- 172.16.3.171 ping statistics ---
+[cmd-9] 2 packets transmitted, 2 received, 0% packet loss, time 999ms
+[cmd-9] rtt min/avg/max/mdev = 0.129/0.133/0.138/0.004 ms
+[cmd-15] PING 172.16.3.166 (172.16.3.166) 56(84) bytes of data.
+[cmd-15] 64 bytes from 172.16.3.166: icmp_seq=1 ttl=64 time=0.139 ms
+[cmd-16] $ ping -c 2 -W 5 172.16.3.164
+[cmd-17] $ ping -c 2 -W 5 172.16.3.165
+[cmd-8] 64 bytes from 172.16.3.147: icmp_seq=2 ttl=64 time=0.065 ms
+[cmd-8] 
+[cmd-8] --- 172.16.3.147 ping statistics ---
+[cmd-8] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-8] rtt min/avg/max/mdev = 0.065/0.077/0.089/0.012 ms
+[cmd-10] 64 bytes from 172.16.3.172: icmp_seq=2 ttl=64 time=0.121 ms
+[cmd-10] 
+[cmd-10] --- 172.16.3.172 ping statistics ---
+[cmd-10] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-18] $ ping -c 2 -W 5 172.16.3.146
+[cmd-10] rtt min/avg/max/mdev = 0.121/0.125/0.130/0.004 ms
+[cmd-16] PING 172.16.3.164 (172.16.3.164) 56(84) bytes of data.
+[cmd-16] 64 bytes from 172.16.3.164: icmp_seq=1 ttl=64 time=0.131 ms
+[cmd-19] $ ping -c 2 -W 5 172.16.3.145
+[cmd-17] PING 172.16.3.165 (172.16.3.165) 56(84) bytes of data.
+[cmd-17] 64 bytes from 172.16.3.165: icmp_seq=1 ttl=64 time=0.142 ms
+[cmd-20] $ ping -c 2 -W 5 172.16.3.144
+[cmd-18] PING 172.16.3.146 (172.16.3.146) 56(84) bytes of data.
+[cmd-18] 64 bytes from 172.16.3.146: icmp_seq=1 ttl=64 time=0.085 ms
+[cmd-19] PING 172.16.3.145 (172.16.3.145) 56(84) bytes of data.
+[cmd-19] 64 bytes from 172.16.3.145: icmp_seq=1 ttl=64 time=0.095 ms
+[cmd-20] PING 172.16.3.144 (172.16.3.144) 56(84) bytes of data.
+[cmd-20] 64 bytes from 172.16.3.144: icmp_seq=1 ttl=64 time=0.102 ms
+[cmd-16] 64 bytes from 172.16.3.164: icmp_seq=2 ttl=64 time=0.137 ms
+[cmd-16] 
+[cmd-16] --- 172.16.3.164 ping statistics ---
+[cmd-16] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-16] rtt min/avg/max/mdev = 0.131/0.134/0.137/0.003 ms
+[cmd-21] $ ping -c 2 -W 5 172.16.3.143
+[cmd-17] 64 bytes from 172.16.3.165: icmp_seq=2 ttl=64 time=0.160 ms
+[cmd-20] 64 bytes from 172.16.3.144: icmp_seq=2 ttl=64 time=0.058 ms
+[cmd-20] 
+[cmd-20] --- 172.16.3.144 ping statistics ---
+[cmd-20] 2 packets transmitted, 2 received, 0% packet loss, time 999ms
+[cmd-17] 
+[cmd-17] --- 172.16.3.165 ping statistics ---
+[cmd-17] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-17] rtt min/avg/max/mdev = 0.142/0.151/0.160/0.009 ms
+[cmd-20] rtt min/avg/max/mdev = 0.058/0.080/0.102/0.022 ms
+[cmd-21] PING 172.16.3.143 (172.16.3.143) 56(84) bytes of data.
+[cmd-21] 64 bytes from 172.16.3.143: icmp_seq=1 ttl=64 time=0.074 ms
+[cmd-22] $ ping -c 2 -W 5 172.16.3.142
+[cmd-23] $ ping -c 2 -W 5 172.16.3.141
+[cmd-18] 64 bytes from 172.16.3.146: icmp_seq=2 ttl=64 time=0.066 ms
+[cmd-18] 
+[cmd-18] --- 172.16.3.146 ping statistics ---
+[cmd-18] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-18] rtt min/avg/max/mdev = 0.066/0.075/0.085/0.009 ms
+[cmd-22] PING 172.16.3.142 (172.16.3.142) 56(84) bytes of data.
+[cmd-22] 64 bytes from 172.16.3.142: icmp_seq=1 ttl=64 time=0.091 ms
+[cmd-24] $ ping -c 2 -W 5 172.16.3.140
+[cmd-23] PING 172.16.3.141 (172.16.3.141) 56(84) bytes of data.
+[cmd-23] 64 bytes from 172.16.3.141: icmp_seq=1 ttl=64 time=0.076 ms
+[cmd-24] PING 172.16.3.140 (172.16.3.140) 56(84) bytes of data.
+[cmd-24] 64 bytes from 172.16.3.140: icmp_seq=1 ttl=64 time=0.088 ms
+[cmd-19] 64 bytes from 172.16.3.145: icmp_seq=2 ttl=64 time=0.060 ms
+[cmd-19] 
+[cmd-19] --- 172.16.3.145 ping statistics ---
+[cmd-19] 2 packets transmitted, 2 received, 0% packet loss, time 1054ms
+[cmd-19] rtt min/avg/max/mdev = 0.060/0.077/0.095/0.017 ms
+[cmd-15] 64 bytes from 172.16.3.166: icmp_seq=2 ttl=64 time=0.124 ms
+[cmd-15] 
+[cmd-15] --- 172.16.3.166 ping statistics ---
+[cmd-15] 2 packets transmitted, 2 received, 0% packet loss, time 1058ms
+[cmd-15] rtt min/avg/max/mdev = 0.124/0.131/0.139/0.007 ms
+[cmd-14] 64 bytes from 172.16.3.167: icmp_seq=2 ttl=64 time=0.121 ms
+[cmd-12] 64 bytes from 172.16.3.169: icmp_seq=2 ttl=64 time=0.131 ms
+[cmd-14] 
+[cmd-13] 64 bytes from 172.16.3.168: icmp_seq=2 ttl=64 time=0.129 ms
+[cmd-13] 
+[cmd-13] --- 172.16.3.168 ping statistics ---
+[cmd-13] 2 packets transmitted, 2 received, 0% packet loss, time 1061ms
+[cmd-13] rtt min/avg/max/mdev = 0.126/0.127/0.129/0.001 ms
+[cmd-14] --- 172.16.3.167 ping statistics ---
+[cmd-14] 2 packets transmitted, 2 received, 0% packet loss, time 1059ms
+[cmd-14] rtt min/avg/max/mdev = 0.121/0.129/0.137/0.008 ms
+[cmd-12] 
+[cmd-12] --- 172.16.3.169 ping statistics ---
+[cmd-12] 2 packets transmitted, 2 received, 0% packet loss, time 1061ms
+[cmd-12] rtt min/avg/max/mdev = 0.131/0.137/0.144/0.006 ms
+[cmd-11] 64 bytes from 172.16.3.170: icmp_seq=2 ttl=64 time=0.194 ms
+[cmd-11] 
+[cmd-11] --- 172.16.3.170 ping statistics ---
+[cmd-11] 2 packets transmitted, 2 received, 0% packet loss, time 1062ms
+[cmd-11] rtt min/avg/max/mdev = 0.155/0.174/0.194/0.019 ms
+[cmd-25] $ ping -c 2 -W 5 172.16.3.138
+[cmd-26] $ ping -c 2 -W 5 172.16.3.139
+[cmd-27] $ ping -c 2 -W 5 172.16.3.137
+[cmd-25] PING 172.16.3.138 (172.16.3.138) 56(84) bytes of data.
+[cmd-25] 64 bytes from 172.16.3.138: icmp_seq=1 ttl=64 time=0.089 ms
+[cmd-27] PING 172.16.3.137 (172.16.3.137) 56(84) bytes of data.
+[cmd-27] 64 bytes from 172.16.3.137: icmp_seq=1 ttl=64 time=0.024 ms
+[cmd-26] PING 172.16.3.139 (172.16.3.139) 56(84) bytes of data.
+[cmd-26] 64 bytes from 172.16.3.139: icmp_seq=1 ttl=64 time=0.088 ms
+[cmd-23] 64 bytes from 172.16.3.141: icmp_seq=2 ttl=64 time=0.077 ms
+[cmd-23] 
+[cmd-23] --- 172.16.3.141 ping statistics ---
+[cmd-23] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-23] rtt min/avg/max/mdev = 0.076/0.076/0.077/0.000 ms
+[cmd-24] 64 bytes from 172.16.3.140: icmp_seq=2 ttl=64 time=0.077 ms
+[cmd-24] 
+[cmd-24] --- 172.16.3.140 ping statistics ---
+[cmd-24] 2 packets transmitted, 2 received, 0% packet loss, time 1001ms
+[cmd-24] rtt min/avg/max/mdev = 0.077/0.082/0.088/0.005 ms
+[cmd-22] 64 bytes from 172.16.3.142: icmp_seq=2 ttl=64 time=0.056 ms
+[cmd-22] 
+[cmd-22] --- 172.16.3.142 ping statistics ---
+[cmd-22] 2 packets transmitted, 2 received, 0% packet loss, time 1013ms
+[cmd-22] rtt min/avg/max/mdev = 0.056/0.073/0.091/0.017 ms
+[cmd-21] 64 bytes from 172.16.3.143: icmp_seq=2 ttl=64 time=0.061 ms
+[cmd-21] 
+[cmd-21] --- 172.16.3.143 ping statistics ---
+[cmd-21] 2 packets transmitted, 2 received, 0% packet loss, time 1015ms
+[cmd-21] rtt min/avg/max/mdev = 0.061/0.067/0.074/0.006 ms
+[cmd-26] 64 bytes from 172.16.3.139: icmp_seq=2 ttl=64 time=0.074 ms
+[cmd-26] 
+[cmd-26] --- 172.16.3.139 ping statistics ---
+[cmd-26] 2 packets transmitted, 2 received, 0% packet loss, time 999ms
+[cmd-26] rtt min/avg/max/mdev = 0.074/0.081/0.088/0.007 ms
+[cmd-27] 64 bytes from 172.16.3.137: icmp_seq=2 ttl=64 time=0.018 ms
+[cmd-27] 
+[cmd-27] --- 172.16.3.137 ping statistics ---
+[cmd-27] 2 packets transmitted, 2 received, 0% packet loss, time 1020ms
+[cmd-27] rtt min/avg/max/mdev = 0.018/0.021/0.024/0.003 ms
+[cmd-25] 64 bytes from 172.16.3.138: icmp_seq=2 ttl=64 time=0.064 ms
+[cmd-25] 
+[cmd-25] --- 172.16.3.138 ping statistics ---
+[cmd-25] 2 packets transmitted, 2 received, 0% packet loss, time 1021ms
+[cmd-25] rtt min/avg/max/mdev = 0.064/0.076/0.089/0.012 ms
+[cmd-28] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_amd64.tgz
+[cmd-28] 9d967d993cb7c61e8ab3bc9a5341b81d1e2e27e54d7c141142fce0863d2e12ac623d790d42acbc411f0758dac26e3dfce467688c87d98b52a6dbcbe7b34f88b3 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_amd64.tgz
+[cmd-29] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-29] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-30] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/onediagcontainer.5.tgz
+[cmd-30] e1e373aa1cfe5f28571e9cb0dcd2987cd94bcab644f50cd0d9a11714b055655dd7bf413deff03192e2355eafcb80ed2ab44ea0a8af27b153ee2bf8dcf67939ea */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/onediagcontainer.5.tgz
+[cmd-31] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-31] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-32] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-32] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-33] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-33] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-34] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-35] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-35] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-34] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-36] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-36] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-37] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-38] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-38] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-37] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-39] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-40] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-41] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-39] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-42] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-40] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-41] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-43] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-42] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-44] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-43] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-45] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-44] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-46] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-45] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-47] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-48] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-46] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-47] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-48] 3c83b799d0b16facd0700f1ba452c88e396ea6b09cae12b0a6dc08302f5ab36d1e30d63854615f07d88cdcfc128d0165748fdc3927853fdf0bbb6b177d1d6ce6 */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_runtime.json
+[cmd-49] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-50] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-51] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-52] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-53] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-54] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-55] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-56] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-57] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-58] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-59] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-60] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-61] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-62] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-63] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-64] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-65] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-66] $ sha512sum -b /tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-50] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-49] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-51] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-52] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-53] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-56] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-55] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-57] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-58] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-59] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-54] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-60] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-61] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-63] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-65] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-64] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-66] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-62] b94211a8c68983e3685054597ee2c2a6b0d3eb96783b7a475023a254652f89fea6e74dcbd6552e850ea4dd5e509422a29d03a92049b0a3fbe5a70821d71dfd2b */tmp/diag_nvdiag/package/629-24975-0000-FLD-60001-rev3/dgx_aarch64.tgz
+[cmd-69] $ netstat -tlnp
+[cmd-69] Active Internet connections (only servers)
+[cmd-69] Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+[cmd-69] tcp        0      0 127.0.0.54:53           0.0.0.0:*               LISTEN      2343/systemd-resolv
+[cmd-69] tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      1/init
+[cmd-69] tcp        0      0 127.0.0.53:53           0.0.0.0:*               LISTEN      2343/systemd-resolv
+[cmd-69] tcp        0      0 127.0.0.1:5555          0.0.0.0:*               LISTEN      2589/nv-hostengine
+[cmd-69] tcp6       0      0 :::22                   :::*                    LISTEN      1/init
+[cmd-69] tcp6       0      0 :::8765                 :::*                    LISTEN      75519/gdm
+[cmd-69] tcp6       0      0 :::46599                :::*                    LISTEN      75646/dra
+[cmd-70] $ kill -15 75519
+[cmd-70] starttime: Fri Aug 28 13:25:10 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0014541149139404297
+[cmd-71] $ kill -15 75519
+[cmd-71] starttime: Fri Aug 28 13:25:11 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0011272430419921875
+[cmd-72] $ kill -15 75519
+[cmd-72] starttime: Fri Aug 28 13:25:12 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0011038780212402344
+[cmd-73] $ kill -15 75519
+[cmd-73] starttime: Fri Aug 28 13:25:13 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0011174678802490234
+[cmd-74] $ kill -15 75519
+[cmd-74] starttime: Fri Aug 28 13:25:14 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0011658668518066406
+[cmd-75] $ kill -15 75519
+[cmd-75] starttime: Fri Aug 28 13:25:15 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.001148223876953125
+[cmd-76] $ kill -15 75519
+[cmd-76] starttime: Fri Aug 28 13:25:16 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010704994201660156
+[cmd-77] $ kill -15 75519
+[cmd-77] starttime: Fri Aug 28 13:25:17 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010805130004882812
+[cmd-78] $ kill -15 75519
+[cmd-78] starttime: Fri Aug 28 13:25:18 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0011169910430908203
+[cmd-79] $ kill -15 75519
+[cmd-79] starttime: Fri Aug 28 13:25:19 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010395050048828125
+[cmd-80] $ kill -15 75519
+[cmd-80] starttime: Fri Aug 28 13:25:20 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0011336803436279297
+[cmd-81] $ kill -15 75519
+[cmd-81] starttime: Fri Aug 28 13:25:21 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010972023010253906
+[cmd-82] $ kill -15 75519
+[cmd-82] starttime: Fri Aug 28 13:25:22 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010209083557128906
+[cmd-83] $ kill -15 75519
+[cmd-83] starttime: Fri Aug 28 13:25:23 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010771751403808594
+[cmd-84] $ kill -15 75519
+[cmd-84] starttime: Fri Aug 28 13:25:24 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.001027822494506836
+[cmd-85] $ kill -15 75519
+[cmd-85] starttime: Fri Aug 28 13:25:25 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0011358261108398438
+[cmd-86] $ kill -15 75519
+[cmd-86] starttime: Fri Aug 28 13:25:26 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010194778442382812
+[cmd-87] $ kill -15 75519
+[cmd-87] starttime: Fri Aug 28 13:25:27 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010399818420410156
+[cmd-88] $ kill -15 75519
+[cmd-88] starttime: Fri Aug 28 13:25:28 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.001058340072631836
+[cmd-89] $ kill -15 75519
+[cmd-89] starttime: Fri Aug 28 13:25:29 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.000993967056274414
+[cmd-90] $ kill -15 75519
+[cmd-90] starttime: Fri Aug 28 13:25:30 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010933876037597656
+[cmd-91] $ kill -15 75519
+[cmd-91] starttime: Fri Aug 28 13:25:31 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.00102996826171875
+[cmd-92] $ kill -15 75519
+[cmd-92] starttime: Fri Aug 28 13:25:32 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.00103759765625
+[cmd-93] $ kill -15 75519
+[cmd-93] starttime: Fri Aug 28 13:25:33 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0009806156158447266
+[cmd-94] $ kill -15 75519
+[cmd-94] starttime: Fri Aug 28 13:25:34 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0009949207305908203
+[cmd-95] $ kill -15 75519
+[cmd-95] starttime: Fri Aug 28 13:25:35 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.001058340072631836
+[cmd-96] $ kill -15 75519
+[cmd-96] starttime: Fri Aug 28 13:25:36 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0009968280792236328
+[cmd-97] $ kill -15 75519
+[cmd-97] starttime: Fri Aug 28 13:25:37 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.000990152359008789
+[cmd-98] $ kill -15 75519
+[cmd-98] starttime: Fri Aug 28 13:25:38 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010106563568115234
+[cmd-99] $ kill -15 75519
+[cmd-99] starttime: Fri Aug 28 13:25:39 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0009908676147460938
+[cmd-100] $ kill -15 75519
+[cmd-100] starttime: Fri Aug 28 13:25:40 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010733604431152344
+[cmd-101] $ kill -15 75519
+[cmd-101] starttime: Fri Aug 28 13:25:41 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010573863983154297
+[cmd-102] $ kill -15 75519
+[cmd-102] starttime: Fri Aug 28 13:25:42 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0009989738464355469
+[cmd-103] $ kill -15 75519
+[cmd-103] starttime: Fri Aug 28 13:25:43 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010101795196533203
+[cmd-104] $ kill -15 75519
+[cmd-104] starttime: Fri Aug 28 13:25:44 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0009968280792236328
+[cmd-105] $ kill -15 75519
+[cmd-105] starttime: Fri Aug 28 13:25:45 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010488033294677734
+[cmd-106] $ kill -15 75519
+[cmd-106] starttime: Fri Aug 28 13:25:46 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.001081228256225586
+[cmd-107] $ kill -15 75519
+[cmd-107] starttime: Fri Aug 28 13:25:47 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010380744934082031
+[cmd-108] $ kill -15 75519
+[cmd-108] starttime: Fri Aug 28 13:25:48 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.001024007797241211
+[cmd-109] $ kill -15 75519
+[cmd-109] starttime: Fri Aug 28 13:25:49 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010030269622802734
+[cmd-110] $ kill -15 75519
+[cmd-110] starttime: Fri Aug 28 13:25:50 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.00098419189453125
+[cmd-111] $ kill -15 75519
+[cmd-111] starttime: Fri Aug 28 13:25:51 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010602474212646484
+[cmd-112] $ kill -15 75519
+[cmd-112] starttime: Fri Aug 28 13:25:52 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010120868682861328
+[cmd-113] $ kill -15 75519
+[cmd-113] starttime: Fri Aug 28 13:25:53 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0011487007141113281
+[cmd-114] $ kill -15 75519
+[cmd-114] starttime: Fri Aug 28 13:25:54 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010726451873779297
+[cmd-115] $ kill -15 75519
+[cmd-115] starttime: Fri Aug 28 13:25:55 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010571479797363281
+[cmd-116] $ kill -15 75519
+[cmd-116] starttime: Fri Aug 28 13:25:56 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0011398792266845703
+[cmd-117] $ kill -15 75519
+[cmd-117] starttime: Fri Aug 28 13:25:57 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.001016378402709961
+[cmd-118] $ kill -15 75519
+[cmd-118] starttime: Fri Aug 28 13:25:58 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010230541229248047
+[cmd-119] $ kill -15 75519
+[cmd-119] starttime: Fri Aug 28 13:25:59 2026
+$ kill -15 75519 ExitCode: 0 Running time in secs: 0.0010616779327392578
+[cmd-120] $ kill -9 75519
+[cmd-120] starttime: Fri Aug 28 13:26:00 2026
+$ kill -9 75519 ExitCode: 0 Running time in secs: 0.001004934310913086
+[cmd-121] $ kill -9 75519
+[cmd-121] starttime: Fri Aug 28 13:26:00 2026
+$ kill -9 75519 ExitCode: 0 Running time in secs: 0.0010089874267578125
+[cmd-122] $ kill -9 75519
+[cmd-122] starttime: Fri Aug 28 13:26:00 2026
+$ kill -9 75519 ExitCode: 0 Running time in secs: 0.0009949207305908203
+[cmd-123] $ kill -9 75519
+[cmd-123] starttime: Fri Aug 28 13:26:00 2026
+$ kill -9 75519 ExitCode: 0 Running time in secs: 0.0010006427764892578
+[cmd-124] $ kill -9 75519
+[cmd-124] starttime: Fri Aug 28 13:26:00 2026
+$ kill -9 75519 ExitCode: 0 Running time in secs: 0.0009951591491699219
