@@ -1,0 +1,5 @@
+建議後續動作
+物理層檢查 COMPUTE_NODE_0：確認 08:57–09:10 這段時間主機是否重開機/自動 reboot（若機器現在還在線，先查 last reboot / journalctl -k --since 有無 kernel panic 或 watchdog reset 痕跡）、以及該 host 對應的 ToR switch port 有無 link flap 記錄。
+下次重跑務必帶 BMC（去掉 --no_bmc，或至少為 node0 補上 BMC IP），這樣如果再次掉線就能立即拉 SEL/CPLD dump，直接定位是 host OS 當機、NIC/cable 問題、還是電源問題。
+因為只有 node0 一台受影響、其餘 26 台的 FAIL 都是連鎖症狀，不需要對 node1–17 或 switch 0–8 做硬體排查，重跑前不用動它們。
+若 rerun 後 node0 仍會在跑到同一個測項附近掉線，時間點很集中在 mods_topo_post_discovery 完成後、onediag_test_end sync 期間，可以懷疑是否與該測項對 node0 特定的負載（例如某張 NIC/NVLink port 的 topology discovery）觸發了硬體問題有關。
