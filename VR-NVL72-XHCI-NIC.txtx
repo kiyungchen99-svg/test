@@ -1,0 +1,95 @@
+# Onboard NIC (enP2p225s0u3) 斷線問題 診斷報告
+
+**主機**: localhost（kernel 6.17.0-1012-nvid）
+**受影響介面**: `enP2p225s0u3`（USB r8152，掛於 Renesas xHCI controller `0002:e1:00.0` 下）
+**問題型態**: NIC 於系統執行期間永久失去傳輸能力，需重開機才能恢復
+**分析日期**: 2026-09-07
+
+---
+
+## 1. 問題摘要
+
+系統上用於管理/連線的 onboard 乙太網路介面 `enP2p225s0u3`，在跑 NVIDIA MODS 診斷驅動、對 GPU/NVSwitch 相關 PCIe 裝置執行 enable 動作後短短數秒內開始出現 USB 傳輸失敗（`failed tx_urb -22`），此後介面雖然 PHY link 仍顯示正常，但無法送出任何封包（含 ARP），對外 ping 直接回報 `Destination Host Unreachable`。此故障狀態為**不可逆**，即使 MODS 驅動之後關閉、卸載，或重新載入，NIC 都無法恢復，必須整機重開機。
+
+`last reboot` 紀錄顯示主機在近期有大量短時間運行後即重開機（多筆僅 00:10～00:25 分鐘），與本次故障模式（跑診斷 → NIC 卡死 → 重開）高度吻合，研判是重複發生的已知模式，而非單一偶發事件。
+
+---
+
+## 2. 關鍵證據與時間軸
+
+### 2.1 介面身分確認
+
+- `enP2p225s0u3` 為 **Realtek r8152** USB Ethernet adapter（`r8152 2-3:1.0`），實體上掛在 USB3 host controller `xhci-pci-renesas 0002:e1:00.0` 之下——即這是一顆走內部 USB 通道的 onboard/管理用網卡，並非獨立 PCIe MAC 的正規伺服器 NIC。
+- `ethtool enP2p225s0u3` 顯示 `Link detected: yes`、`Speed: 1000Mb/s`、`Duplex: Full`、`Auto-negotiation: on`——PHY 層看起來完全正常，這是容易誤判「網路應該通」的地方。實際上這些欄位只反映 PHY 協商狀態，**不代表 USB 傳輸層是否正常**。
+
+### 2.2 故障與 MODS 驅動動作的時間相關性
+
+| 時間 | 事件 |
+|---|---|
+| 19:26:54 | `mods [1]: driver opened, pid=20757` |
+| 19:33:59 | `mods [1]: enabled dev 0002:81:00.0 / 0002:c1:00.0 / 000a:81:00.0 / 000a:e1:00.0` |
+| 19:43:41 | `mods [1]: disabled ...` / `driver closed`（此輪未見 tx_urb 異常） |
+| 19:43:50 | `mods [1]: driver opened, pid=21429` |
+| **19:50:56** | `mods [1]: enabled dev 0002:81:00.0 / 0002:c1:00.0 / 000a:81:00.0 / 000a:e1:00.0` |
+| **19:51:09** | **第一筆 `xhci-pci-renesas 0002:e1:00.0: WARN waiting f...` + `r8152 ... failed tx_urb -22`**（距上一行 enable 僅約 13 秒） |
+| 19:51:09 ～ 19:59:19 | tx_urb 失敗持續不間斷發生（log 中共 311 筆） |
+| 19:59:10 | `mods [1]: disabled dev ...` / `driver closed` |
+| 19:59:11 | `mods: driver unloaded` |
+| 19:59:12 | `mods: driver loaded, version 4.35`（重新載入） |
+| 19:59:12 起 | tx_urb 失敗**依然持續**，未因 MODS 驅動卸載/重載而恢復 |
+
+**結論**：故障起點精準對應在 MODS 對特定 PCIe 裝置執行 `enabled dev` 之後，且故障狀態在 MODS 驅動關閉、卸載、重新載入後都沒有恢復——代表這不是 MODS 軟體本身的邏輯問題，而是該 enable 動作對硬體匯流排造成了**不可逆的干擾**，波及到 USB 控制器。
+
+### 2.3 PCI 位址拓樸線索
+
+MODS 這次操作的裝置與故障 USB 控制器同屬 **PCI domain `0002`**：
+
+- `xhci-pci-renesas` USB 控制器：`0002:e1:00.0`
+- MODS enable 的裝置：`0002:81:00.0`、`0002:c1:00.0`
+- （另有 `000a:81:00.0`、`000a:e1:00.0` 屬於另一個 domain，與本次 NIC 故障的直接關聯性較低）
+
+`0002:e1:00.0` 與 `0002:81:00.0` / `0002:c1:00.0` 同一 domain，很可能共用同一組上游 PCIe switch / riser / retimer，甚至共用電源或 reset 訊號線。MODS enable GPU/NVSwitch 裝置時觸發的 link training 或 FLR（Function Level Reset）等動作，很可能在該共用匯流排上造成瞬態干擾，導致 Renesas xHCI controller 進入異常狀態，卡在等待某個 USB command/ring completion（`WARN waiting f...`，訊息在原始 log 中被截斷，需重新導出完整內容才能確認等待的確切對象）。
+
+### 2.4 網路層症狀
+
+```
+ip -4 a
+  enP2p225s0u3: inet 192.168.102.69/24 ... state UP, LOWER_UP
+
+ping 192.168.102.10
+  From 192.168.102.69 icmp_seq=1 Destination Host Unreachable
+  From 192.168.102.69 icmp_seq=2 Destination Host Unreachable
+  From 192.168.102.69 icmp_seq=3 Destination Host Unreachable
+```
+
+介面本身顯示 UP/LOWER_UP，IP 也有配置，但連 ARP request 都送不出去（Destination Host Unreachable 通常代表本機連鄰居解析都失敗）——與 `failed tx_urb -22` 完全吻合：封包在 driver 要把資料交給 USB host controller 的階段就被拒絕（-22 = `-EINVAL`），根本沒機會上線送出。
+
+---
+
+## 3. 根因研判
+
+> MODS 對同一 PCIe domain（`0002:`）下的 GPU/NVSwitch 相關裝置執行 enable（可能觸發 link training / reset）時，干擾了同一匯流排上的 Renesas USB3 xHCI controller，使其進入無法處理 URB 的異常狀態；該 USB 控制器下掛載的 r8152 onboard NIC 因此永久失去傳輸能力，且此狀態不會隨 MODS 驅動卸載/重載恢復，唯有整機重開機才能恢復正常。
+
+此為**硬體/拓樸層級**的問題，而非單純的驅動或網路設定問題。
+
+---
+
+## 4. 建議行動
+
+1. **取得完整 log 訊息**：目前 `WARN waiting f...` 被截斷，建議以 `COLUMNS=500 journalctl -k --since ... --no-pager` 或 `journalctl -k -o short-iso --no-pager | cat` 重新導出，確認 xHCI 究竟在等待哪個資源（command ring / port status / endpoint completion），有助於進一步定位是 controller reset 邏輯還是韌體問題。
+2. **確認實體拓樸**：以 `lspci -tv` 確認 `0002:e1:00.0`（USB）是否與 `0002:81:00.0`、`0002:c1:00.0` 共用同一上游 switch/riser，驗證第 2.3 節的匯流排共用假設。
+3. **隔離重現測試**：
+   - 只對 `0002:` domain 的兩顆裝置做 enable/disable，觀察 NIC 是否斷線；
+   - 只對 `000a:` domain 的裝置做 enable/disable，作為對照組。
+   若前者能穩定重現、後者不會，即可確認故障與特定匯流排/riser 有關。
+4. **短期 workaround**：跑 MODS 診斷期間，若需要遠端連線/監控，改用 BMC 網路或另一張獨立 PCIe NIC，避開這顆共用匯流排的 USB onboard NIC。
+5. **長期處理**：
+   - 回報平台/主機板設計端，檢視該 riser 上 USB controller 與 GPU/NVSwitch 裝置的匯流排/電源/reset 隔離設計；
+   - 檢查 Renesas xHCI controller 是否有可用的韌體更新，加強對鄰近裝置 reset 事件的容錯能力；
+   - 若此 NIC 為關鍵管理介面，評估在硬體 revision 上改為獨立 PCIe NIC 或加入匯流排隔離。
+
+---
+
+## 5. 附註：重開機紀錄佐證
+
+`last reboot` 顯示大量短運行時間的重開機紀錄（如多筆 00:10、00:12、00:24、00:25 分鐘），與「跑診斷 → NIC 卡死 → 重開」的循環模式一致，顯示這很可能是重複發生、已存在一段時間的問題，而非本次單一事件。
