@@ -1,0 +1,18 @@
+深入 run_details.log 的關鍵發現
+
+每台 compute node 在這個 subtest 裡，8 顆 GPU 的溫度量測本身全部回報 MODS-000000000000 ... OK（0002:80:00.0、0002:81:00.0、0002:c0:00.0、0002:c1:00.0、000a:80:00.0、000a:81:00.0、000a:e0:00.0、000a:e1:00.0），只有在最後一筆「Component=System、Component Id 空白」的彙總項目上才拋出這個 Python TypeError。
+
+這代表：GPU 硬體本身的熱測數據是乾淨的，這不是實際的過熱或 GPU 異常，而是測試框架在做完 8 顆 GPU 的量測後，跑一個系統層級的收尾/彙總步驟時，去 os.stat() 一個應該是路徑字串的變數，結果那個變數是 None——典型的腳本/環境 bug，而不是硬體 Fail。
+
+交叉比對的旁證
+hb_run.mle 顯示 HeartBeatMonitorThread 有正常 Exiting，gdm.log 全程到 15:15:22 UTC 收尾乾淨，沒有 GDM 層級的例外或斷線
+filehash.log 全部 OK，測試套件檔案沒有損毀
+multinode.log 裡唯一抓到的 Traceback 是收尳 log 階段對 switch node 拉 /var/log/nmx/nmx-c/nvbd_fm.log 用 scp 失敗（dgx_node.py _ExecuteCopyOperation/_ScpCopy），這是因為該檔案在這個平台上本來就不存在，屬於良性、跟 Thermal FAIL 無關的雜訊
+switch node 全過，只有 compute node 出這個錯，暗示這個 None path 變數大概率跟 compute node 特有的某個檔案路徑（例如某個 per-node 的溫度感測 log 或暫存檔）沒被正確產生/回填有關
+建議下一步
+這是 software defect / 環境問題，不是硬體 fail，可以先排除 GPU/散熱硬體本身
+需要拿到 onediagfieldmn r10.197_1.41.3 對應版本 ThermalGpuSwitchStress 測試腳本原始碼，找出彙總階段呼叫 os.stat() 的那段程式，看它期待的路徑變數是從哪裡賦值（很可能是某個 per-GPU log 檔案路徑產生失敗，或是 config JSON 裡某個欄位在 compute node profile 上是 null）
+檢查是否跟這次用的 --force_product=strata_l11 或 gdm_config.json 裡 compute node 的路徑設定有關，因為 switch node 不受影響，很可能是 compute-node-only 的一個 code path
+如果急著要出貨判斷，可以考慮先重跑一次 ThermalGpuSwitchStress（單獨用 --test_id）確認是不是每次都 100% 重現同一個 TypeError，這樣能更確定是腳本 bug 而非間歇性問題
+
+需要我幫你進一步比對其他次跑過的 log，或是找 dgx_node.py/相關診斷腳本裡這個 stat 呼叫的具體位置嗎？
