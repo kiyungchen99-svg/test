@@ -1,0 +1,3 @@
+對向 switch port 的 log（最快）——查那個 port 在 08:57–09:10 這段時間有沒有 link flap、CRC/FCS error、或 err-disable 記錄。如果 switch 這邊有看到同時間點的 down/up，基本上就能定案是 NIC 或線材問題，而不是主機或 diag 本身的 bug。
+主機恢復後看 dmesg/journalctl -k 有沒有該 NIC driver 的 link down/up 訊息，配合時間點比對。
+若下次重跑同一個 tray 又在類似時間點出現一樣的斷線模式，可以考慮直接換一條線 / 換一個 switch port 做排除法。
