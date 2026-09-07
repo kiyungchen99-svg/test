@@ -1,0 +1,916 @@
+[root@localhost ~]# last reboot
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17   still running
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17   still running
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17   still running
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17   still running
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17   still running
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17   still running
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17   still running
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 16:25 (285+22:08)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 16:25 (285+22:08)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 14:30 (285+20:12)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 14:30 (285+20:12)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 14:30 (285+20:12)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 12:28 (285+18:11)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 12:28 (285+18:11)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 12:28 (285+18:11)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 12:28 (285+18:11)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 12:28 (285+18:11)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 12:28 (285+18:11)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 12:28 (285+18:11)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 12:28 (285+18:11)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 04:11 (284+09:53)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 04:11 (284+09:53)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 04:11 (284+09:53)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 18:27  (00:10)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 18:27  (00:10)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 18:27  (00:10)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 18:27  (00:10)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 18:27  (00:10)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 18:27  (00:10)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:19 - 01:31 (277+07:12)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:19 - 01:31 (277+07:12)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:19 - 01:31 (277+07:12)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:31 (277+07:14)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 14:57 (274+20:40)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 14:57 (274+20:40)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:19 - 19:42 (275+01:22)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 19:42 (275+01:25)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 19:21  (01:04)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 18:29  (00:12)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 18:27  (00:10)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 18:27  (00:10)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 18:41  (00:24)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:17 - 01:12  (06:55)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:19 - 19:10  (00:50)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:18 - 19:10  (00:52)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:19 - 18:45  (00:25)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:19 - 18:45  (00:25)
+reboot   system boot  6.17.0-1012-nvid Tue Nov 25 18:19 - 18:45  (00:25)
+reboot   system boot  6.17.0-1012-nvid Wed Aug 19 06:14 - 18:45 (-266+11:29)
+
+wtmp begins Wed Aug 19 06:14:42 2026
+[root@localhost ~]#journalctl -k --since Wed Aug 19 06:14 - 18:45
+Failed to parse timestamp: Wed
+[root@localhost ~]# journalctl -k --since "Wed Aug 19 06:14 - 18:45"
+Failed to parse timestamp: Wed Aug 19 06:14 - 18:45
+[root@localhost ~]# journalctl -k --since 08192026
+Failed to parse timestamp: 08192026
+[root@localhost ~]# journalctl -k --since 2026-08-19
+Sep 07 18:41:03 localhost kernel: mods: *** WARNING: DIAGNOSTIC DRIVER LOADED *>
+Sep 07 18:41:03 localhost kernel: mods: driver loaded, version 4.35
+Sep 07 18:41:39 localhost kernel: mods [1]: driver opened, pid=18431
+Sep 07 18:41:39 localhost kernel: mods [1]: set dma mask 52 for dev 000a:e1:00.0
+Sep 07 18:41:41 localhost kernel: mods [2]: driver opened, pid=18439
+Sep 07 18:41:41 localhost kernel: mods [2]: set dma mask 52 for dev 0002:c1:00.0
+Sep 07 18:41:43 localhost kernel: mods [3]: driver opened, pid=18453
+Sep 07 18:41:43 localhost kernel: mods [3]: set dma mask 52 for dev 0002:81:00.0
+Sep 07 18:41:45 localhost kernel: mods [4]: driver opened, pid=18467
+Sep 07 18:41:45 localhost kernel: mods [4]: set dma mask 52 for dev 000a:81:00.0
+Sep 07 18:48:23 localhost kernel: mods [1]: enabled dev 000a:e1:00.0
+Sep 07 18:48:24 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 18:48:25 localhost kernel: mods [2]: enabled dev 0002:c1:00.0
+Sep 07 18:48:26 localhost kernel: mods [2]: failed to read property nvidia,egm->
+Sep 07 18:48:27 localhost kernel: mods [3]: enabled dev 0002:81:00.0
+Sep 07 18:48:28 localhost kernel: mods [3]: failed to read property nvidia,egm->
+Sep 07 18:48:29 localhost kernel: mods [4]: enabled dev 000a:81:00.0
+Sep 07 18:48:30 localhost kernel: mods [1]: disabled dev 000a:e1:00.0
+Sep 07 18:48:30 localhost kernel: mods [1]: driver closed
+Sep 07 18:48:30 localhost kernel: mods [4]: failed to read property nvidia,egm->
+Sep 07 18:48:30 localhost kernel: mods [2]: disabled dev 0002:c1:00.0
+Sep 07 18:48:30 localhost kernel: mods [2]: driver closed
+Sep 07 18:48:32 localhost kernel: mods [3]: disabled dev 0002:81:00.0
+Sep 07 18:48:32 localhost kernel: mods [3]: driver closed
+Sep 07 18:48:35 localhost kernel: mods [4]: disabled dev 000a:81:00.0
+Sep 07 18:48:35 localhost kernel: mods [4]: driver closed
+Sep 07 18:48:43 localhost kernel: mods [1]: driver opened, pid=18792
+Sep 07 18:48:43 localhost kernel: mods [1]: driver closed
+Sep 07 18:49:29 localhost kernel: mods [1]: driver opened, pid=19351
+Sep 07 18:49:33 localhost kernel: mods [1]: set dma mask 52 for dev 0002:81:00.0
+Sep 07 18:49:33 localhost kernel: mods [1]: set dma mask 52 for dev 0002:c1:00.0
+Sep 07 18:49:33 localhost kernel: mods [1]: set dma mask 52 for dev 000a:81:00.0
+Sep 07 18:49:33 localhost kernel: mods [1]: set dma mask 52 for dev 000a:e1:00.0
+Sep 07 18:56:52 localhost kernel: mods [1]: enabled dev 0002:81:00.0
+Sep 07 18:56:52 localhost kernel: mods [1]: enabled dev 0002:c1:00.0
+Sep 07 18:56:52 localhost kernel: mods [1]: enabled dev 000a:81:00.0
+Sep 07 18:56:52 localhost kernel: mods [1]: enabled dev 000a:e1:00.0
+Sep 07 18:56:53 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 18:56:54 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 18:56:56 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 18:56:57 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:09:20 localhost kernel: mods [1]: disabled dev 000a:e1:00.0
+Sep 07 19:09:20 localhost kernel: mods [1]: disabled dev 000a:81:00.0
+Sep 07 19:09:20 localhost kernel: mods [1]: disabled dev 0002:c1:00.0
+Sep 07 19:09:20 localhost kernel: mods [1]: disabled dev 0002:81:00.0
+Sep 07 19:09:20 localhost kernel: mods [1]: driver closed
+Sep 07 19:10:08 localhost kernel: mods [1]: driver opened, pid=20162
+Sep 07 19:10:11 localhost kernel: mods [1]: set dma mask 52 for dev 0002:81:00.0
+Sep 07 19:10:11 localhost kernel: mods [1]: set dma mask 52 for dev 0002:c1:00.0
+Sep 07 19:10:11 localhost kernel: mods [1]: set dma mask 52 for dev 000a:81:00.0
+Sep 07 19:10:11 localhost kernel: mods [1]: set dma mask 52 for dev 000a:e1:00.0
+Sep 07 19:17:13 localhost kernel: mods [1]: enabled dev 0002:81:00.0
+Sep 07 19:17:14 localhost kernel: mods [1]: enabled dev 0002:c1:00.0
+Sep 07 19:17:14 localhost kernel: mods [1]: enabled dev 000a:81:00.0
+Sep 07 19:17:14 localhost kernel: mods [1]: enabled dev 000a:e1:00.0
+Sep 07 19:17:15 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:17:16 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:17:17 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:17:19 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:26:45 localhost kernel: mods [1]: disabled dev 000a:e1:00.0
+Sep 07 19:26:45 localhost kernel: mods [1]: disabled dev 000a:81:00.0
+Sep 07 19:26:45 localhost kernel: mods [1]: disabled dev 0002:c1:00.0
+Sep 07 19:26:45 localhost kernel: mods [1]: disabled dev 0002:81:00.0
+Sep 07 19:26:45 localhost kernel: mods [1]: driver closed
+Sep 07 19:26:54 localhost kernel: mods [1]: driver opened, pid=20757
+Sep 07 19:26:57 localhost kernel: mods [1]: set dma mask 52 for dev 0002:81:00.0
+Sep 07 19:26:57 localhost kernel: mods [1]: set dma mask 52 for dev 0002:c1:00.0
+Sep 07 19:26:57 localhost kernel: mods [1]: set dma mask 52 for dev 000a:81:00.0
+Sep 07 19:26:57 localhost kernel: mods [1]: set dma mask 52 for dev 000a:e1:00.0
+Sep 07 19:33:59 localhost kernel: mods [1]: enabled dev 0002:81:00.0
+Sep 07 19:33:59 localhost kernel: mods [1]: enabled dev 0002:c1:00.0
+Sep 07 19:33:59 localhost kernel: mods [1]: enabled dev 000a:81:00.0
+Sep 07 19:33:59 localhost kernel: mods [1]: enabled dev 000a:e1:00.0
+Sep 07 19:34:01 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:34:02 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:34:03 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:34:05 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:43:41 localhost kernel: mods [1]: disabled dev 000a:e1:00.0
+Sep 07 19:43:41 localhost kernel: mods [1]: disabled dev 000a:81:00.0
+Sep 07 19:43:41 localhost kernel: mods [1]: disabled dev 0002:c1:00.0
+Sep 07 19:43:41 localhost kernel: mods [1]: disabled dev 0002:81:00.0
+Sep 07 19:43:41 localhost kernel: mods [1]: driver closed
+Sep 07 19:43:50 localhost kernel: mods [1]: driver opened, pid=21429
+Sep 07 19:43:54 localhost kernel: mods [1]: set dma mask 52 for dev 0002:81:00.0
+Sep 07 19:43:54 localhost kernel: mods [1]: set dma mask 52 for dev 0002:c1:00.0
+Sep 07 19:43:54 localhost kernel: mods [1]: set dma mask 52 for dev 000a:81:00.0
+Sep 07 19:43:54 localhost kernel: mods [1]: set dma mask 52 for dev 000a:e1:00.0
+Sep 07 19:50:56 localhost kernel: mods [1]: enabled dev 0002:81:00.0
+Sep 07 19:50:56 localhost kernel: mods [1]: enabled dev 0002:c1:00.0
+Sep 07 19:50:56 localhost kernel: mods [1]: enabled dev 000a:81:00.0
+Sep 07 19:50:56 localhost kernel: mods [1]: enabled dev 000a:e1:00.0
+Sep 07 19:50:57 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:50:59 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:51:00 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:51:01 localhost kernel: mods [1]: failed to read property nvidia,egm->
+Sep 07 19:51:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN: TRB erro>
+Sep 07 19:51:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: Tx status -84
+Sep 07 19:51:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:10 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:10 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:10 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:10 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:10 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:10 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:10 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:10 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:10 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:10 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:10 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:10 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:10 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:10 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:11 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:11 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:11 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:11 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:11 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:11 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:11 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:11 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:11 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:11 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:11 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:11 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:14 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:14 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:14 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:14 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:15 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:15 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:15 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:15 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:15 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:15 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:15 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:15 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:16 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:16 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:16 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:16 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:16 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:16 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:16 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:16 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:17 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:17 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:17 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:17 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:18 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:18 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:18 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:18 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:18 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:18 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:21 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:21 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:21 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:21 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:22 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:22 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:22 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:22 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:22 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:22 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:23 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:23 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:23 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:23 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:23 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:23 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:24 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:24 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:25 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:25 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:25 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:25 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:25 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:25 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:26 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:26 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:27 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:27 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:28 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:28 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:28 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:28 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:30 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:30 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:32 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:32 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:35 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:35 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:36 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:36 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:36 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:36 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:36 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:36 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:37 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:37 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:38 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:38 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:39 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:39 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:39 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:39 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:41 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:41 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:41 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:41 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:46 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:46 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:47 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:47 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:48 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:48 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:49 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:49 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:57 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:57 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:58 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:58 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:51:59 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:51:59 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:02 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:02 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:02 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:02 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:03 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:03 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:03 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:03 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:03 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:03 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:04 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:04 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:05 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:05 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:06 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:06 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:07 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:07 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:07 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:07 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:08 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:08 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:08 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:08 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:23 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:23 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:24 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:24 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:26 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:26 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:32 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:32 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:33 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:33 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:34 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:34 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:40 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:40 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:44 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:44 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:45 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:45 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:45 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:45 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:46 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:46 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:46 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:46 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:47 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:47 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:47 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:47 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:48 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:48 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:49 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:49 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:50 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:50 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:51 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:51 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:52 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:52 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:53 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:53 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:55 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:55 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:56 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:56 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:57 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:57 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:58 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:58 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:52:59 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:52:59 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:00 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:00 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:03 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:03 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:08 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:08 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:09 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:09 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:10 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:10 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:10 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:10 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:16 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:16 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:17 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:17 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:18 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:18 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:26 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:26 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:27 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:27 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:28 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:28 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:48 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:48 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:48 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:48 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:49 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:49 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:50 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:50 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:51 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:51 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:52 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:52 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:52 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:52 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:53 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:53 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:53 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:53 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:53 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:53 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:54 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:54 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:54 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:54 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:55 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:55 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:55 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:55 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:53:59 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:53:59 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:00 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:00 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:01 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:01 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:19 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:19 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:20 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:20 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:20 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:20 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:21 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:21 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:21 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:21 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:22 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:22 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:23 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:23 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:24 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:24 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:25 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:25 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:25 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:25 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:26 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:26 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:27 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:27 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:27 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:27 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:31 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:31 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:32 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:32 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:33 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:33 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:45 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:45 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:46 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:46 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:47 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:47 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:50 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:50 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:52 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:52 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:53 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:53 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:54 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:54 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:55 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:55 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:55 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:55 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:56 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:56 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:56 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:56 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:57 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:57 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:57 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:57 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:54:59 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:54:59 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:00 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:00 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:01 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:01 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:02 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:02 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:03 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:03 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:04 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:04 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:14 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:14 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:15 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:15 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:24 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:24 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:25 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:25 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:26 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:26 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:27 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:27 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:28 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:28 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:29 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:29 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:29 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:29 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:30 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:30 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:31 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:31 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:31 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:31 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:35 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:35 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:36 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:36 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:37 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:37 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:38 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:38 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:39 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:39 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:40 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:40 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:51 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:51 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:52 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:52 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:53 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:53 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:56 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:56 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:57 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:57 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:58 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:58 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:55:59 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:55:59 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:00 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:00 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:01 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:01 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:01 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:01 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:02 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:02 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:03 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:03 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:03 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:03 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:06 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:06 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:07 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:07 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:07 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:07 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:08 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:08 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:10 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:10 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:14 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:14 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:15 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:15 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:16 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:16 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:17 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:17 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:18 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:18 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:28 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:28 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:29 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:29 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:30 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:30 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:31 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:31 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:32 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:32 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:33 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:33 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:45 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:45 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:46 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:46 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:47 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:47 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:53 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:53 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:58 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:58 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:59 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:59 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:56:59 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:56:59 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:00 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:00 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:00 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:00 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:00 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:00 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:01 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:01 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:01 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:01 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:02 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:02 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:03 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:03 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:04 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:04 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:05 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:05 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:06 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:06 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:07 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:07 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:07 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:07 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:08 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:08 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:11 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:11 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:15 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:15 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:16 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:16 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:17 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:17 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:18 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:18 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:19 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:19 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:20 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:20 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:21 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:21 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:25 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:25 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:26 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:26 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:26 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:26 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:27 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:27 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:27 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:27 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:28 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:28 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:52 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:52 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:53 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:53 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:57:54 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:57:54 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:58:18 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:58:18 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:58:19 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:58:19 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:58:20 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:58:20 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:58:46 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:58:46 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:58:47 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:58:47 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:58:48 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:58:48 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:58:55 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:58:55 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:01 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:01 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:02 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:02 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:03 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:03 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:10 localhost kernel: mods [1]: disabled dev 000a:e1:00.0
+Sep 07 19:59:10 localhost kernel: mods [1]: disabled dev 000a:81:00.0
+Sep 07 19:59:10 localhost kernel: mods [1]: disabled dev 0002:c1:00.0
+Sep 07 19:59:10 localhost kernel: mods [1]: disabled dev 0002:81:00.0
+Sep 07 19:59:10 localhost kernel: mods [1]: driver closed
+Sep 07 19:59:11 localhost kernel: mods: driver unloaded
+Sep 07 19:59:11 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:11 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:12 localhost kernel: mods: *** WARNING: DIAGNOSTIC DRIVER LOADED *>
+Sep 07 19:59:12 localhost kernel: mods: driver loaded, version 4.35
+Sep 07 19:59:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:12 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:12 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:13 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:13 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:14 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:14 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:16 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:16 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:17 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:17 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:18 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:18 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:19 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:19 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:19 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:19 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:24 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:24 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:25 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:25 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:26 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:26 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:32 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:32 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:33 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:33 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:34 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:34 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:39 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:39 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+Sep 07 19:59:39 localhost kernel: xhci-pci-renesas 0002:e1:00.0: WARN waiting f>
+Sep 07 19:59:39 localhost kernel: r8152 2-3:1.0 enP2p225s0u3: failed tx_urb -22
+
+
+[root@localhost ~]# ip -4 a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+3: enP2p225s0u3: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc fq_codel state UP group default qlen 1000
+    inet 192.168.102.69/24 metric 100 brd 192.168.102.255 scope global dynamic enP2p225s0u3
+       valid_lft 23302sec preferred_lft 23302sec
+40: virbr0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc htb state DOWN group default qlen 1000
+    inet 192.168.122.1/24 brd 192.168.122.255 scope global virbr0
+       valid_lft forever preferred_lft forever
+
+
+[root@localhost ~]# ping 192.168.102.10
+PING 192.168.102.10 (192.168.102.10) 56(84) bytes of data.
+From 192.168.102.69 icmp_seq=1 Destination Host Unreachable
+From 192.168.102.69 icmp_seq=2 Destination Host Unreachable
+From 192.168.102.69 icmp_seq=3 Destination Host Unreachable
+
+
+[root@localhost ~]# ethtool enP2p225s0u3
+Settings for enP2p225s0u3:
+        Supported ports: [ MII ]
+        Supported link modes:   10baseT/Half 10baseT/Full
+                                100baseT/Half 100baseT/Full
+                                1000baseT/Full
+        Supported pause frame use: No
+        Supports auto-negotiation: Yes
+        Supported FEC modes: Not reported
+        Advertised link modes:  10baseT/Half 10baseT/Full
+                                100baseT/Half 100baseT/Full
+                                1000baseT/Full
+        Advertised pause frame use: No
+        Advertised auto-negotiation: Yes
+        Advertised FEC modes: Not reported
+        Link partner advertised link modes:  10baseT/Half 10baseT/Full
+                                             100baseT/Half 100baseT/Full
+                                             1000baseT/Full
+        Link partner advertised pause frame use: No
+        Link partner advertised auto-negotiation: Yes
+        Link partner advertised FEC modes: Not reported
+        Speed: 1000Mb/s
+        Duplex: Full
+        Auto-negotiation: on
+        Port: MII
+        PHYAD: 32
+        Transceiver: internal
+        Supports Wake-on: pumbg
+        Wake-on: g
+        Current message level: 0x00007fff (32767)
+                               drv probe link timer ifdown ifup rx_err tx_err tx_queued intr tx_done rx_status pktdata hw wol
+        Link detected: yes
+[root@localhost ~]# ethtool -k enP2p225s0u3
+Features for enP2p225s0u3:
+rx-checksumming: on
+tx-checksumming: on
+        tx-checksum-ipv4: on
+        tx-checksum-ip-generic: off [fixed]
+        tx-checksum-ipv6: on
+        tx-checksum-fcoe-crc: off [fixed]
+        tx-checksum-sctp: off [fixed]
+scatter-gather: on
+        tx-scatter-gather: on
+        tx-scatter-gather-fraglist: on
+tcp-segmentation-offload: on
+        tx-tcp-segmentation: on
+        tx-tcp-ecn-segmentation: off [fixed]
+        tx-tcp-mangleid-segmentation: off
+        tx-tcp6-segmentation: on
+        tx-tcp-accecn-segmentation: off [fixed]
+generic-segmentation-offload: on
+generic-receive-offload: on
+large-receive-offload: off [fixed]
+rx-vlan-offload: on
+tx-vlan-offload: on
+ntuple-filters: off [fixed]
+receive-hashing: off [fixed]
+highdma: off [fixed]
+rx-vlan-filter: off [fixed]
+vlan-challenged: off [fixed]
+tx-gso-robust: off [fixed]
+tx-fcoe-segmentation: off [fixed]
+tx-gre-segmentation: off [fixed]
+tx-gre-csum-segmentation: off [fixed]
+tx-ipxip4-segmentation: off [fixed]
+tx-ipxip6-segmentation: off [fixed]
+tx-udp_tnl-segmentation: off [fixed]
+tx-udp_tnl-csum-segmentation: off [fixed]
+tx-gso-partial: off [fixed]
+tx-tunnel-remcsum-segmentation: off [fixed]
+tx-sctp-segmentation: off [fixed]
+tx-esp-segmentation: off [fixed]
+tx-udp-segmentation: off [fixed]
+tx-gso-list: off [fixed]
+tx-nocache-copy: off
+loopback: off [fixed]
+rx-fcs: off [fixed]
+rx-all: off [fixed]
+tx-vlan-stag-hw-insert: off [fixed]
+rx-vlan-stag-hw-parse: off [fixed]
+rx-vlan-stag-filter: off [fixed]
+l2-fwd-offload: off [fixed]
+hw-tc-offload: off [fixed]
+esp-hw-offload: off [fixed]
+esp-tx-csum-hw-offload: off [fixed]
+rx-udp_tunnel-port-offload: off [fixed]
+tls-hw-tx-offload: off [fixed]
+tls-hw-rx-offload: off [fixed]
+rx-gro-hw: off [fixed]
+tls-hw-record: off [fixed]
+rx-gro-list: off
+macsec-hw-offload: off [fixed]
+rx-udp-gro-forwarding: off
+hsr-tag-ins-offload: off [fixed]
+hsr-tag-rm-offload: off [fixed]
+hsr-fwd-offload: off [fixed]
+hsr-dup-offload: off [fixed]
+[root@localhost ~]# 
