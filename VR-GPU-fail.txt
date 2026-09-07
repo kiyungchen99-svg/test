@@ -1,0 +1,35 @@
+這次(00:38:28 開始)的 run.log 是完全不同、而且嚴重得多的一次 FAIL，跟你上一次貼的 21:58 那次(post-processing NoneType bug)是兩碼事。
+
+## 這次失敗的層級
+
+1. **CollectInventory / Nvoshealthcheck**：正常（compute node 因 node_types filter 被 skip，switch node 全 OK）
+2. **Connectivity 測試**：**18 台 compute node 無一例外**全部回報：
+   ```
+   LoadNvidiaDriver returned non 7
+   ```
+   緊接著每台的 4 顆 GPU、每條 NVLink（36 條/GPU）全部被判定「in an unexpected state」——這其實是**同一個根因的連鎖症狀**：driver 沒能正常載入，NVLink 自然無法 training，所以整批鏈路全部報異常，不是 36×4×18 條線纜真的壞了
+3. **NvlBwStressBg610Pulsy_1 / _2**：一樣是 `LoadNvidiaDriver returned non 7`，接著 `Fabric probe failed to initialize`——同一個 driver 沒起來的根因持續影響後續測試
+4. **NvlBwStressBg610Pulsy_3**：COMPUTE_NODE_0 (192.168.102.69) **整台在測試中失聯**（ping 都不通、BMC IP 也沒配，連 log 目錄都抓不到），導致：
+   - `Sync convergence failed on nodes` — 全部 27 個節點的 multi-node barrier 卡住
+   - `Network channel recovery failed for nodes: [0]`
+   - 最終 `ERROR: logs dir not found on 192.168.102.69`
+   這代表 COMPUTE_NODE_0 在跑到 Pulsy_3 時直接當機/斷網/重開機，把整個 multi-node 同步都拖垮
+
+## 根因判斷
+
+**這不是硬體 cable/NVLink 問題**，而是：
+
+- **第一層根因**：18 台 compute node 的 GPU driver 全數 `LoadNvidiaDriver returned non 7`，代表這次跑測時 driver 根本沒有正確載入（exit code 不是預期的 7）。可能原因：
+  - 這次是新 boot（`Dumping inforom` + fresh log 目錄 `logs-20260907-003825`），開機後 driver 模組沒被自動載入或跟 kernel 版本對不上
+  - driver 套件/kernel module 在 provisioning 階段沒有真的裝進所有節點
+  - Secure Boot 擋掉了未簽名的 nvidia kernel module
+  - 也可能是 GPU 韌體/driver package 版本跟這次跑測用的 kernel 不匹配
+
+- **第二層、獨立事件**：COMPUTE_NODE_0 在跑 Pulsy_3 時整台失聯，這是另一個問題（可能是 driver 沒載入疊加下，某個 stress test 觸發了 kernel panic 或硬重開機），需要單獨查 COMPUTE_NODE_0 的 IPMI/BMC log（但文件顯示 BMC IP 沒配置，這點本身也要修正，否則出問題連遠端診斷都做不到）
+
+## 建議下一步
+
+1. 先確認這批 18 台 compute node 這次開機後 `nvidia-smi` / `lsmod | grep nvidia` 是否正常，找出為什麼全數 driver load 失敗（很可能是 provisioning/開機腳本的系統性問題，而非個別硬體）
+2. 補上 COMPUTE_NODE_0 的 BMC/IPMI IP 設定，這樣下次類似情況能抓 CPLD dump 做進一步診斷
+3. driver 問題排除後，NVLink「unexpected state」的巨量訊息應該會消失（因為那是 driver 沒起來的次生症狀）；如果排除 driver 問題後 NVLink 還是報異常，才需要回頭懷疑硬體/線纜
+4. 針對 COMPUTE_NODE_0 失聯，建議檢查它的 serial console log 或 IPMI SEL，確認是否有 kernel panic/watchdog reset 的紀錄
