@@ -1,0 +1,288 @@
+Host Name       | Exit Code         | Virtual Id       | Test         | Subtest        | Component              | Component Id                  | Notes
+=========================================================================================================================================================================================================================================
+COMPUTE_NODE_0  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_0  | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_0  | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726825161 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726825161 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726825657 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726825657 | OK
+COMPUTE_NODE_0  | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.154:52960] has stopped responding, crashed, or timed out
+COMPUTE_NODE_1  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_1  | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_1  | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726839104 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726839104 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726836781 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726836781 | OK
+COMPUTE_NODE_1  | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.153:58206] has stopped responding, crashed, or timed out
+COMPUTE_NODE_1  | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_2  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_2  | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_2  | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626831542 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626831542 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626823472 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626823472 | OK
+COMPUTE_NODE_2  | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.152:51790] has stopped responding, crashed, or timed out
+COMPUTE_NODE_2  | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_3  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_3  | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_3  | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626022098 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626022098 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626021593 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626021593 | OK
+COMPUTE_NODE_3  | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.151:37668] has stopped responding, crashed, or timed out
+COMPUTE_NODE_4  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_4  | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_4  | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626841302 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626841302 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626841598 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626841598 | OK
+COMPUTE_NODE_4  | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.150:42430] has stopped responding, crashed, or timed out
+COMPUTE_NODE_4  | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_5  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_5  | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_5  | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626839487 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626839487 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626844319 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626844319 | OK
+COMPUTE_NODE_5  | MODS-000000900044 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | MODS test failed on a remote node
+COMPUTE_NODE_5  | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_6  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_6  | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_6  | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626842731 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626842731 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626843916 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626843916 | OK
+COMPUTE_NODE_6  | MODS-000000900044 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | MODS test failed on a remote node
+COMPUTE_NODE_6  | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_7  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_7  | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_7  | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626837297 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626837297 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626836330 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626836330 | OK
+COMPUTE_NODE_7  | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.147:39666] has stopped responding, crashed, or timed out
+COMPUTE_NODE_7  | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_8  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_8  | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_8  | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626021644 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626021644 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626020438 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626020438 | OK
+COMPUTE_NODE_8  | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.146:52208] has stopped responding, crashed, or timed out
+COMPUTE_NODE_8  | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_9  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_9  | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_9  | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726836960 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726836960 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726837171 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726837171 | OK
+COMPUTE_NODE_9  | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.145:45860] has stopped responding, crashed, or timed out
+COMPUTE_NODE_9  | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_10 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_10 | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_10 | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626841706 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626841706 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626845969 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626845969 | OK
+COMPUTE_NODE_10 | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.144:60330] has stopped responding, crashed, or timed out
+COMPUTE_NODE_10 | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_11 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_11 | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_11 | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626839256 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626839256 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626843704 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626843704 | OK
+COMPUTE_NODE_11 | MODS-000000900044 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | MODS test failed on a remote node
+COMPUTE_NODE_11 | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_12 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_12 | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_12 | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626846170 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626846170 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626846244 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626846244 | OK
+COMPUTE_NODE_12 | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.142:35642] has stopped responding, crashed, or timed out
+COMPUTE_NODE_12 | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_13 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_13 | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_13 | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626021342 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626021342 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626845108 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626845108 | OK
+COMPUTE_NODE_13 | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.141:39174] has stopped responding, crashed, or timed out
+COMPUTE_NODE_13 | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_14 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_14 | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_14 | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726840653 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726840653 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726825447 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726825447 | OK
+COMPUTE_NODE_14 | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.140:57156] has stopped responding, crashed, or timed out
+COMPUTE_NODE_14 | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_15 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_15 | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_15 | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626024469 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626024469 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626024417 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626024417 | OK
+COMPUTE_NODE_15 | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.139:47464] has stopped responding, crashed, or timed out
+COMPUTE_NODE_15 | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_16 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_16 | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_16 | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_16 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626022110 | OK
+COMPUTE_NODE_16 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626022110 | OK
+COMPUTE_NODE_16 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626022034 | OK
+COMPUTE_NODE_16 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626022034 | OK
+COMPUTE_NODE_16 | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.138:47130] has stopped responding, crashed, or timed out
+COMPUTE_NODE_16 | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
+COMPUTE_NODE_17 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | inforom          | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_17 | DGX-000000000000  | CollectInventory | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_17 | DGX-000000000000  | CollectInventory | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726828894 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726828894 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726825735 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity     | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726825735 | OK
+COMPUTE_NODE_17 | MODS-000000000043 | NvlBwStress      | nvlink       | singleinstance | NVLink                 |                               | Diag on node [::ffff:172.16.31.137:52990] has stopped responding, crashed, or timed out
+COMPUTE_NODE_17 | DGX-000000000001  | NvlBwStress      | nvlink       |                | NVLink                 |                               | unable to send sync message
