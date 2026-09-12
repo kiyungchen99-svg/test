@@ -1,0 +1,61 @@
+root@root:~/629-24975-0000-FLD-60001-rev3# cat dgx/logs-20260912-221006/run.log 
+Command Line: onediagfieldmn.r9.269.20 --connect 172.16.26.137 --primary --timeout 60000 --startup_delay 300000 --multinode_dbg --gdm_config_json /root/629-24975-0000-FLD-60001-rev3/gdm_config.json --force_product=oberon_gb110 --dra --run_spec=spec_gb300_nvl_72_2_4_cable_cartridge_partner_R060532_268462870007.json
+Test Dependency Management has been initialized and is ready for use.
+******************************************************************
+*                                                                *
+*              DGX PARTNER MANUFACTURING DIAGNOSTIC              *
+*                                                                *
+******************************************************************
+
+Version                  24975-0000-FLD-60001-rev3
+Base diag                r9.269.20
+Python                   /root/629-24975-0000-FLD-60001-rev3/dgx/python/python-3.10.7-glibc-2.17-aarch64/bin/python3
+Build Date               Wed, 25 Feb 2026
+Start time               Sat, 12 Sep 2026 22:10:08
+Est. Completion time     Sat, 12 Sep 2026 22:15:08
+Logs                     /root/629-24975-0000-FLD-60001-rev3/dgx/logs-20260912-221006
+Inforom logs             /root/629-24975-0000-FLD-60001-rev3/dgx/logs-20260912-221006/inforom
+
+Testing CableCartridgeEepromCheck [ 0:02s ]
+
+Host Name       | Exit Code        | Virtual Id                | Test            | Subtest | Component | Component Id | Notes
+================================================================================================================================================================================================================================================================
+COMPUTE_NODE_0  | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_1  | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_2  | DGX-000000000125 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | Error while invoking api /redfish/v1/Chassis/CBC_3. Error message => The requested resource of type Chassis named 'CBC_3' was not found.
+COMPUTE_NODE_3  | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_4  | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_5  | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_6  | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_7  | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_8  | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_9  | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_10 | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_11 | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_12 | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_13 | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_14 | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_15 | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_16 | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+COMPUTE_NODE_17 | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+SWITCH_NODE_0   | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+SWITCH_NODE_1   | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+SWITCH_NODE_2   | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+SWITCH_NODE_3   | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+SWITCH_NODE_4   | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+SWITCH_NODE_5   | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+SWITCH_NODE_6   | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+SWITCH_NODE_7   | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+SWITCH_NODE_8   | DGX-000000000000 | CableCartridgeEepromCheck | cable_cartridge |         | GPU       |              | OK
+
+#######     ####    ########  ###
+#######    ######   ########  ###
+##        ##    ##     ##     ###
+##        ##    ##     ##     ###
+#######   ########     ##     ###
+#######   ########     ##     ###
+##        ##    ##     ##     ###
+##        ##    ##  ########  ########
+##        ##    ##  ########  ########
+
+Final Result: FAIL
