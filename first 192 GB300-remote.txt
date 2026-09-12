@@ -1,0 +1,18 @@
+DWS 遠端連線:
+ 
+RACK 1-8 [bu18-hq-th09 ]
+https://www.dwservice.net/4tdfe69xa2sd88218n4m47b6obspj042z0320url.dlk
+Pega#1234NVX
+ 
+RACK 9-16 [Terry]
+https://www.dwservice.net/t1hh867y23ql2l93opr88s926d3h9g335q7oxbcw.dlk
+1qaz?:P)
+ 
+RACK 17-24 [ Test NB_th11 ]
+https://www.dwservice.net/9546i9298vg4b40z8a666hh4428528gj7s7511pg.dlk
+PW: pega1234
+ 
+ 
+RACK 25-32 [ bu18-hq-th12 ]
+https://www.dwservice.net/w5t940qjr9lwbo2371f18j10h5wa6ke2o3d04ar1.dlk
+PW: pega1234
