@@ -1,0 +1,1074 @@
+Command Line: onediagfieldmn.r9.269.20 --connect 172.16.44.137 --run_on_error --primary --timeout 60000 --startup_delay 300000 --multinode_dbg --gdm_config_json /root/629-24975-0000-FLD-60001-rev3/gdm_config.json --force_product=oberon_gb110 --dra --run_spec=spec_gb300_nvl_72_2_4_compute_nodes_partner_mfg_R060640_268563690002_v2.json
+Test Dependency Management has been initialized and is ready for use.
+******************************************************************
+*                                                                *
+*              DGX PARTNER MANUFACTURING DIAGNOSTIC              *
+*                                                                *
+******************************************************************
+
+Version                  24975-0000-FLD-60001-rev3
+Base diag                r9.269.20
+Python                   /root/629-24975-0000-FLD-60001-rev3/dgx/python/python-3.10.7-glibc-2.17-aarch64/bin/python3
+Build Date               Wed, 25 Feb 2026
+Start time               Tue, 15 Sep 2026 21:35:55
+Est. Completion time     Wed, 16 Sep 2026 08:07:55
+Logs                     /root/629-24975-0000-FLD-60001-rev3/dgx/logs-20260915-213554
+Inforom logs             /root/629-24975-0000-FLD-60001-rev3/dgx/logs-20260915-213554/inforom
+
+Dumping inforom [ 0:36s ]
+Testing CollectInventory [ 2:42s ]
+Testing Connectivity [ 11:29s ]
+Testing NvlBwStress [ 17:50s ]
+Testing InventoryMemoryCheck [ 0:01s ]
+Testing NvlBwStressBg610 [ 18:10s ]
+Testing NvlBwStressBg610Pulsy [ 18:20s ]
+Testing CpuGpuSyncPulsePower [ 24:12s ]
+Testing CpuGpuSyncPulsePower_FP4 [ 11:37s ]
+Testing ThermalSteadyState [ 17:21s ]
+
+Host Name       | Exit Code         | Virtual Id               | Test         | Subtest        | Component              | Component Id                  | Notes
+=================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+COMPUTE_NODE_0  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_0  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_0  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626041714 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_0  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_0  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626040946 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_1  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_1  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726821022 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_1  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_1  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726832863 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_2  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_2  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626051417 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_2  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_2  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626051564 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_3  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_3  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726834947 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_3  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_3  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726837326 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_4  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_4  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626039293 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_4  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_4  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626041205 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_5  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_5  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726831048 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_5  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_5  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726821128 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_6  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_6  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726830458 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_6  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_6  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626041129 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_7  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_7  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626040167 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_7  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_7  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626040285 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_8  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_8  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626041403 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_8  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_8  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626041457 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_9  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_9  | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652626040772 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_9  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_9  | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652626040109 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_10 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_10 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1652526071563 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_10 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_10 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1652526070539 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_11 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_11 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726821363 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_11 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_11 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726834713 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_12 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_12 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762626837080 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_12 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_12 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762626844703 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_13 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_13 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762626840863 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_13 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_13 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726832037 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_14 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_14 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762626841189 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_14 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_14 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762626841215 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_15 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_15 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726823112 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_15 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_15 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726831041 | OK
+COMPUTE_NODE_16 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_16 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_16 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_16 | MODS-000000900140 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762626842477 | [raw_lane_ber error value of 4e-06 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, port acp68), [raw_total_ber error value of 2e-06 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H, C/D, E/F) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, A/B, E/F, port acp68), [fec_bler_1 error value of 3.98873e-20 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H, C/D, E/F) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, A/B, E/F, port acp68)
+COMPUTE_NODE_16 | MODS-000000900140 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1762626842477 | [raw_lane_ber error value of 1e-05 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, port acp68), [raw_total_ber error value of 9e-06 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H, C/D, E/F) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, A/B, E/F, port acp68), [fec_bler_1 error value of 1.2693e-14 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H, C/D, E/F) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, A/B, E/F, port acp68)
+COMPUTE_NODE_16 | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_16 | MODS-000000900140 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762626842477 | [fec_bler_1 error value of 2.70929e-17 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H, C/D, E/F) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, A/B, E/F, port acp68)
+COMPUTE_NODE_16 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762626837578 | OK
+COMPUTE_NODE_16 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762626837578 | OK
+COMPUTE_NODE_16 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762626842477 | OK
+COMPUTE_NODE_16 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762626842477 | OK
+COMPUTE_NODE_16 | MODS-000000900140 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762626842477 | [raw_lane_ber error value of 4e-06 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, port acp68), [raw_total_ber error value of 2e-06 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H, C/D, E/F) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, A/B, E/F, port acp68), [fec_bler_1 error value of 7.59599e-16 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H, C/D, E/F) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, A/B, E/F, port acp68)
+COMPUTE_NODE_16 | MODS-000000900140 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762626842477 | [fec_bler_1 error value of 3.61666e-18 exceeded threshold on (0018:06:00.0_SN_1762626842477, nvlink 16)] @(Rack slot 26, 4x19 connector 4, column 3, pins A/B, G/H, C/D, E/F) PEER (Rack slot 17, CBC 4, 8x10 connector 7, column 10, pins C/D, G/H, A/B, E/F, port acp68)
+COMPUTE_NODE_16 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762626837578 | OK
+COMPUTE_NODE_16 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762626837578 | OK
+COMPUTE_NODE_16 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762626842477 | OK
+COMPUTE_NODE_16 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_16 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762626842477 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0008:06:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0018:06:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0009:06:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | inforom                  | inforom      |                | GPU                    | 0019:06:00.0                  | OK
+COMPUTE_NODE_17 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 | Inventory                     | Skipping inventory validation as 'skip_data_validation' is set to true
+COMPUTE_NODE_17 | DGX-000000000000  | CollectInventory         | inventory    |                | System                 |                               | CollectInventory results ignored. Pass on fail is true
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0008:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0009:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0018:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | Connectivity             | connectivity | nvlink         | GPU, PCIE, Nvlink, I2C | 0019:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0008:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0009:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0018:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStress              | nvlink       | singleinstance | NVLink                 | 0019:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | DGX-000000000000  | InventoryMemoryCheck     | tegra_memory |                | Memory                 |                               | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610         | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0008:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0009:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0018:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | NvlBwStressBg610Pulsy    | nvlink       | concurrent     | NVLink                 | 0019:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower     | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | CpuGpuSyncPulsePower_FP4 | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0008:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0009:06:00.0_SN_1762726837455 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0018:06:00.0_SN_1762726821696 | OK
+COMPUTE_NODE_17 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:00:00.0                  | OK
+COMPUTE_NODE_17 | MODS-000000000000 | ThermalSteadyState       | powersync    |                | CPU, GPU               | 0019:06:00.0_SN_1762726821696 | OK
+
+#######     ####    ########  ###
+#######    ######   ########  ###
+##        ##    ##     ##     ###
+##        ##    ##     ##     ###
+#######   ########     ##     ###
+#######   ########     ##     ###
+##        ##    ##     ##     ###
+##        ##    ##  ########  ########
+##        ##    ##  ########  ########
+
+Final Result: FAIL
+End time: Tue, 15 Sep 2026 23:43:41 [ 127:46s elapsed ]
